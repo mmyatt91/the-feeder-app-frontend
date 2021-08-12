@@ -1,0 +1,52 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+
+}
+
+.App::after {
+  content: "";
+  background: url("food_pic.jpg");
+  background-position: center top;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+
+.search-form {
+  min-height:  10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  width: 50%;
+  padding: 10px;
+}
+
+.search-button {
+  background: black;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
