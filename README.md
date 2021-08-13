@@ -26,6 +26,11 @@ https://api.edaman.com
 - Favoriting/Unfavoriting recipes that are saved to the user's favorite page
 - Update and make changes to a User's Profile
 - Redirects users to the full recipe based on the url source of each recipe rendered.
+### User Flow
+- Step 1: From the homepage, the user clicks a button to  sign up or log in (if already registered) to their account.
+- Step 2: User is then redirected to the app's main page, which features a search form/input, and navigation bar displaying "Favorites" (which redirects the user to a page featuring all of their previously favorited recipes from their last login), "Profile" (which redirects the user to a page, where they can make changes to their account info, i.e. email, first name, etc.), and "Log Out" (which logs out the user and redirects to the app's login page).
+- Step 3:  After entering a keyword and submitting the search form/input, individual recipe cards are rendered, displaying the recipe's ingredients, a heart button for favoriting, and a "Full Recipe" button that redirects the user to the recipe's source url.
+- Step 4: To search for new recipes, the user simply inputs a new keyword, and recipe cards are rendered.
 
 ## The Feeder App
 
